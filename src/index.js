@@ -14,7 +14,7 @@ import turnOn from './components/turnOn';
     <Router>
         <BaseLayout>
          <Switch>
-           <Route path="/App" component={App} />
+           <Route exact path="/" component={App} />
            <Route path="/About" component={About} />
            <Route path="/Portfolio" component={Portfolio}/>
            <Route path = "/turnOn" component ={turnOn}/>
