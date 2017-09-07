@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
 
+
 class Portfolio extends Component {
   render() {
     return (
       <div id="main">
           <div id="banner-wrapper">
-            <div id="banner" class="container">
-              <p>This is the Portfolio Page of the Portfolio assignment</p>
+            <div id="pbanner" class="container">
+              <p>This is the Portfolio Page</p>
             </div>
           </div>
           <div id="wrapper">
@@ -49,7 +50,7 @@ class Portfolio extends Component {
                     <span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
                   </div>
                   <p>Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus. Donec placerat odio vel elit. Nullam ante orci, pellentesque eget, tempus quis, ultrices in, est. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo. Pellentesque imperdiet.</p>
-                  <a href="#" class="button">Etiam posuere</a>
+                  <a href="mailto:jordanmichelequinn@gmail.com" class="button">Email me!</a>
                 </div>
 
                 <div id="ebox2">
@@ -58,7 +59,7 @@ class Portfolio extends Component {
                     <span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
                   </div>
                   <p>Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus. Donec placerat odio vel elit. Nullam ante orci, pellentesque eget, tempus quis, ultrices in, est. Sed vel tellus. Curabitur sem urna, consequat vel, suscipit in, mattis placerat, nulla. Sed ac leo. Pellentesque imperdiet.</p>
-                  <a href="#" class="button">Etiam posuere</a>
+                  <a href="mailto:jordanmichelequinn@gmail.com" class="button" strong >Email me!</a>
                 </div>
               </div>
             </div>

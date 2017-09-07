@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/default.css';
 
 class DisplayLayout extends Component {
   render() {
@@ -47,7 +48,7 @@ class DisplayLayout extends Component {
               					<h2>Don't Press this Button!</h2>
               				</div>
               				<Link to = './turnOn'>
-                      <button id = "dontpress">Don't do it!!</button></Link>
+                      <button id = "dontpress" className = "button-big">Don't do it!!</button></Link>
 
               			</div>
               		</div>
